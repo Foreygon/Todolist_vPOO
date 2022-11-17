@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* error */
+.color_red{
+    color: red;
+}
+
+
+/* header */
+.header-main{
+    background-color: blueviolet;
+    box-shadow: 0px 0px 5px 6px rgba(0,0,0,0.4);
+    height: 10vh;
+}
+.h1-header{
+    color: white;
+    padding: 1rem;
+}
+
+/* main */
+.contain{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+
+}
+.contain-form{
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    height: 80%;
+    width: 450px;
+    box-shadow: 0px 0px 5px 6px rgba(0,0,0,0.4);
+    display: flex;
+
+    flex-direction: column;
+}
+.h2-form{
+    text-align: center;
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    line-height:24pt;
+
+}
+
+.row:nth-child(odd) {
+    background: #e0e0e0;
+}
+
+
+
+.btn-form{
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+.input-form{
+    padding-left: 25px;
+}
+
+/* footer */
+.footer-main{
+    background-color: darkslategray;
+    display: flex;
+    justify-content: flex-end;
+    height: 10vh;
+}
+.tdr{
+    color: white;
+    padding: 1rem;
+    
+}
+
+/* list bdd */
+
+.value-list{
+    
+    width: 200px;
+    margin-right: 8px;
+    padding-left: 5px;
+    border: solid rgb(50, 50, 50) 1px;
+    border-radius: 5px;
+}
+.value-list:hover{
+    background-color: rgb(60, 60, 60);
+    color: white;
+}
+
+.contenaire-list{
+    margin: 8px;
+    
+}
+
+.btn-del{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 8px;
+    
+}
+.btn-del:hover{
+    background-color: rgb(220, 120, 120);
+}
+
+.btn-end{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+.btn-end:hover{
+    background-color: rgb(131, 138, 214);
+}
+
+/* flexbox */
+.dpf-jc{
+    display: flex;
+    justify-content: center;
+}
+
+
+.fd-c{
+    flex-direction: column;
+}
+
+.dpf-se{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* edit */
+.line{
+    text-decoration: line-through;
+}
